@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #eeeeee;
+}
+
+.App {
+	position: relative;
+}
+
+.breadcrumb {
+	position: fixed;
+	background: transparent;
+	top: 15px;
+	right: 15px;
+	padding: 0;
+	z-index: 999;
+}
+
+.breadcrumb button {
+	pointer-events: none;
+	color: white;
+	
+}
+
+.breadcrumb button:not(:last-child) {
+	margin-right: 5px;
+}
+
+.questionBox {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	text-align: center;
+	background: white;
+	padding: 15px;
+	width: 400px;
+}
+
+.questionBox .buttons button {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.span-yes {
+	border-radius: 3px;
+    padding: 2px 5px;
+    background: #28a745;
+    color: white;
+    font-weight: bold;
+}
+
+.check-mark {
+	color: #28a745;
+	display: block;
+	font-size: 80px;
+}
+
+.btn-submit {
+	width: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
